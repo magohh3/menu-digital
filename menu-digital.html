@@ -12,6 +12,13 @@
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+       @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=BenchNine&family=Pragati+Narrow:wght@400;700&display=swap');
+
+		.bebas{font-family: 'Bebas Neue', cursive;}
+		.pragati{font-family: 'Pragati Narrow', sans-serif;}
+		.benchnine{font-family: 'BenchNine', sans-serif;}
+		.roboto{font-family: 'Roboto Slab', sans-serif;}
+
         body{background-image: url("https://pendulo.com/archivos/fondo-vintage-01.jpg");background-size: 100%;}
         ul{padding:0 !important;}
         .btn_carta{color:#FFF;height: 80px;text-align: center;vertical-align: middle;display: inline-block;font-weight: 600;font-size: 20px;padding: 35px 0;line-height:1.1;}
@@ -21,15 +28,15 @@
         .com-title img{width: 60%;}
         .menu-itms ul{list-style:none !important;}
         .menu-itms ul li{margin:0 0 10px;}
-        .menu-itms ul li a{font-size: 25px;color:#7f4600;margin:0 0 10px;}
-        .menu-itms ul li:nth-child(even){font-weight:700;}
+        .menu-itms ul li a{font-size: 2em;color:#7f4600;margin:0 0 10px;line-height: 35px;}
+        .menu-itms ul li:nth-child(odd){font-weight:700;}
         .desayuno .menu-itms ul li a{text-decoration: underline 2px #ffb91a;}
         .comida .menu-itms ul li a{text-decoration: underline 2px #ff8300;}
         .cena .menu-itms ul li a{text-decoration: underline 2px #4cbaac;}
         .tab-content{width:100%;}
         .modal-body{padding:0;}
         .modal-body img{width: 100%;}
-        .com-title h1{color: #7f4600;font-family: 'Roboto Slab', serif; font-size: 70px;}
+        .com-title h1{font-family: 'Roboto Slab', serif; font-size: 3.5em;}
         .modal-header{padding: 5px 20px 0px;background: #000;border: none;}
         .close{color:#FFF;}
         .close:focus, .close:hover{color:#a8a8a8;}
@@ -50,7 +57,14 @@
         .nav-tabs{padding: 0;}
         .nav-tabs a{width: 33.3%;border-radius: 0;margin: 0 !important;}
         .menus{display: none;}
-        } 
+
+        }
+        .blue1{color:#4cbaac;}
+        .title{
+			border-bottom: 7px dotted #7f4600;
+			width: fit-content;
+			text-transform: uppercase;
+        }
     </style>
 
 
@@ -72,265 +86,313 @@
     <a href="#6a" data-toggle="tab" onclick="closet()">Bar</a>
     <a href="#7a" data-toggle="tab" onclick="closet()">Bar Polanco</a>
 </div> 
-  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
+	<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		<i class="fa fa-bars"></i>
+	</a>
 </div> 
-    <div class="container">
-        <div class="row">
-            <div class="menus nav nav-tabs col-lg-12">
-                <a href="https://pendulo.com/archivos/menu-digital.html" style="background:#ffb91a;"><div style="color:#7f4600;" class="btn_carta">Desayunos</div></a>
-                <a href="https://pendulo.com/archivos/menu-comida-y-cena.html" style="background:#ff8300;"><div class="btn_carta">Comida y cena</div></a>
-                <a href="https://pendulo.com/archivos/menu-infantil.html" style="background:#ffb91a;"><div style="color:#7f4600;" class="btn_carta">Men&uacute; infantil</div></a>
-                <a href="#5a" data-toggle="tab" style="background:#7f4600;"><div class="btn_carta">Men&uacute; del d&iacute;a</div></a>
-                <a href="https://pendulo.com/archivos/menu-bebidas.html" style="background:#4cbaac;"><div class="btn_carta">Bebidas</div></a>
-                <a href="#6a" data-toggle="tab" style="background:#4cbaac;"><div class="btn_carta">Bar</div></a>
-                <a href="#7a" data-toggle="tab" style="background:#ffb91a;"><div style="color:#7f4600;" class="btn_carta">Bar Polanco</div></a>
-            </div>
-            
-            <div id="up" class="tab-content">
-                <!--Desayuno-->
-                <div class="tab-pane container active desayuno" id="1a">
-                    <div class="row">
-                        <div class="col-lg-12 com-title"><img src="https://pendulo.com/archivos/desayuno.png" /></div>
-                        <div class="col-lg-4 col-sm-12 offset-lg-2 menu-itms">
-                            <ul class="nav flex-column">
-                                <li><a href="#1d" data-toggle="tab">Nuestros jugos</a></li>
-                                <li><a href="#2d" data-toggle="tab">Para empezar</a></li>
-                                <li><a href="#3d" data-toggle="tab">Paquetes de desayuno</a></li>
-                                <li><a href="#4d" data-toggle="tab">Lo cl&aacute;sico para desayunar</a></li>
-                            </ul>
-                        </div>
-                        
-                        <div class="col-lg-4 col-sm-12 menu-itms">
-                            <ul>
-                              <li><a href="#5d" data-toggle="tab">Hotcakes</a></li>
-                              <li><a href="#6d" data-toggle="tab">Chilaquiles y enchiladas</a></li>
-                              <li><a href="#7d" data-toggle="tab">De brunch</a></li>
-                                <li><a href="#14d" data-toggle="tab">Postres</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-8 offset-lg-2">
-                          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                            <a href="#up" class="btn btn-success me-md-2" type="button">Subir</a>
-                          </div>
-                      </div>
-                    </div>
-                </div>
-               
-                <!--Nuestros Jugos-->
-                <div class="tab-pane container fade" id="1d">
-                    <div class="row">
-                        <div class="col-lg-12 com-title"><h1>Nuestros Jugos</h1></div>
-                        <div class="col-lg-4 offset-lg-2 menu-itms">
-                            <ul>
-                                <li><a href="" data-toggle="modal" data-target="#jugo1">El Bram Stoker</a></li>
-                                <li><a href="" data-toggle="modal" data-target="#jugo2">El Fresco de Tamayo</a></li>
-                                <li><a href="" data-toggle="modal" data-target="#jugo3">El Costeño</a></li>
-                                <li><a href="" data-toggle="modal" data-target="#jugo4">El Gauguin Tropical</a></li>
-                                <li><a href="" data-toggle="modal" data-target="#jugo5">El Gran Papaya</a></li>
-                                <li><a href="" data-toggle="modal" data-target="#jugo6">El Narahoria</a></li>
-                            </ul>
-                        </div>
-                        
-                        <div class="col-lg-4 menu-itms">
-                            <ul>
-                                <li><a href="" data-toggle="modal" data-target="#jugo7">Jugo rojo revitalizante</a></li>
-                                <li><a href="" data-toggle="modal" data-target="#jugo8">Jugos naturales chicos</a></li>
-                                <li><a href="" data-toggle="modal" data-target="#jugo9">Jugos naturales grandes</a></li>
-                                <li><a href="" data-toggle="modal" data-target="#jugo10">Nopal de lux</a></li>
-                                <li><a href="" data-toggle="modal" data-target="#jugo11">El verde Whitman</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-8 offset-lg-2">
-                          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                            <a href="https://pendulo.com/archivos/menu-digital.html" class="btn btn-success me-md-2" type="button">Regresar</a>
-                          </div>
-                      </div>
-                    </div>
-                </div>
+	<div class="container">
+		<div class="row">
+			<div class="menus nav nav-tabs col-lg-12">
+				<a href="https://pendulo.com/archivos/menu-digital.html" style="background:#ffb91a;">
+					<div style="color:#7f4600;" class="btn_carta">Desayunos</div>
+				</a>
+				<a href="https://pendulo.com/archivos/menu-comida-y-cena.html" style="background:#ff8300;">
+					<div class="btn_carta">Comida y cena</div>
+				</a>
+				<a href="https://pendulo.com/archivos/menu-infantil.html" style="background:#ffb91a;">
+					<div style="color:#7f4600;" class="btn_carta">Men&uacute; infantil</div></a>
+				<a href="#5a" data-toggle="tab" style="background:#7f4600;">
+					<div class="btn_carta">Men&uacute; del d&iacute;a</div>
+				</a>
+				<a href="https://pendulo.com/archivos/menu-bebidas.html" style="background:#4cbaac;">
+					<div class="btn_carta">Bebidas</div>
+				</a>
+				<a href="#6a" data-toggle="tab" style="background:#4cbaac;">
+					<div class="btn_carta">Bar</div>
+				</a>
+				<a href="#7a" data-toggle="tab" style="background:#ffb91a;">
+					<div style="color:#7f4600;" class="btn_carta">Bar Polanco</div>
+				</a>
+			</div>
 
+			<div id="up" class="tab-content">
+				<!--Desayuno-->
+				<div class="tab-pane container active desayuno" id="1a">
+					<div class="row">
+						<div class="col-lg-12 com-title">
+							<img src="https://pendulo.com/archivos/desayuno.png" />
+						</div>
+						<div class="col-lg-4 col-sm-12 offset-lg-2 menu-itms">
+						<ul class="nav flex-column">
+							<li><a href="#1d" data-toggle="tab">Nuestros jugos</a></li>
+							<li><a href="#2d" data-toggle="tab">Para empezar</a></li>
+							<li><a href="#3d" data-toggle="tab">Paquetes de desayuno</a></li>
+							<li><a href="#4d" data-toggle="tab">Lo cl&aacute;sico para desayunar</a></li>
+						</ul>
+						</div>
+
+						<div class="col-lg-4 col-sm-12 menu-itms">
+							<ul>
+								<li><a href="#5d" data-toggle="tab">Hotcakes</a></li>
+								<li><a href="#6d" data-toggle="tab">Chilaquiles y enchiladas</a></li>
+								<li><a href="#7d" data-toggle="tab">De brunch</a></li>
+								<li><a href="#14d" data-toggle="tab">Postres</a></li>
+							</ul>
+						</div>
+						<div class="col-lg-8 offset-lg-2">
+							<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+								<a href="#up" class="btn btn-success me-md-2" type="button">Subir</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+		<!--Nuestros Jugos-->
+				<div class="tab-pane container fade" id="1d">
+					<div class="row">
+						<div class="col-lg-12 com-title"><h1>Nuestros Jugos</h1></div>
+						<div class="col-lg-4 offset-lg-2 menu-itms">
+							<ul>
+								<li><a href="" data-toggle="modal" data-target="#jugo1">El Bram Stoker</a></li>
+								<li><a href="" data-toggle="modal" data-target="#jugo2">El Fresco de Tamayo</a></li>
+								<li><a href="" data-toggle="modal" data-target="#jugo3">El Costeño</a></li>
+								<li><a href="" data-toggle="modal" data-target="#jugo4">El Gauguin Tropical</a></li>
+								<li><a href="" data-toggle="modal" data-target="#jugo5">El Gran Papaya</a></li>
+								<li><a href="" data-toggle="modal" data-target="#jugo6">El Narahoria</a></li>
+							</ul>
+						</div>
+
+						<div class="col-lg-4 menu-itms">
+							<ul>
+								<li><a href="" data-toggle="modal" data-target="#jugo7">Jugo rojo revitalizante</a></li>
+								<li><a href="" data-toggle="modal" data-target="#jugo8">Jugos naturales chicos</a></li>
+								<li><a href="" data-toggle="modal" data-target="#jugo9">Jugos naturales grandes</a></li>
+								<li><a href="" data-toggle="modal" data-target="#jugo10">Nopal de lux</a></li>
+								<li><a href="" data-toggle="modal" data-target="#jugo11">El verde Whitman</a></li>
+							</ul>
+						</div>
+						<div class="col-lg-8 offset-lg-2">
+							<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+								<a href="https://pendulo.com/archivos/menu-digital.html" class="btn btn-success me-md-2" type="button">Regresar</a>
+							</div>
+						</div>
+					</div>
+				</div>
+		<!--Para empezar-->
+				<div class="tab-pane container fade" id="2d">
+					<div class="row">
+						<div class="col-lg-11 offset-lg-1 com-title text-left "><h1 class="blue1 title">Para empezar</h1></div>
+						<div class="col-lg-5 offset-lg-2 menu-itms p-0">
+							<ul class="pragati">
+								<li><a href="" data-toggle="modal" data-target="#pempezar1">Plato de Frutas de la Estación</a>
+									<p>Chico</p>
+									<p>Chico</p>
+									<p>Chico</p>
+									<p>Chico</p>
+								</li>
+								<li><a href="" data-toggle="modal" data-target="#pempezar1">Acai Bowl</a></li>
+								<li><a href="" data-toggle="modal" data-target="#pempezar2">Yogurt Especial</a></li>
+								<li><a href="" data-toggle="modal" data-target="#pempezar3">Bisquets Clásicos</a></li>
+							</ul>
+						</div>
+
+						<div class="col-lg-5 menu-itms">
+							<ul>
+								<li><a href="" data-toggle="modal" data-target="#pempezar4">Molletes Caseros</a></li>
+								<li><a href="" data-toggle="modal" data-target="#pempezar5">Mollárabe</a></li>
+								<li><a href="" data-toggle="modal" data-target="#pempezar6">Queso Panela</a></li>
+								<li><a href="" data-toggle="modal" data-target="#pempezar7">Sincronizadas Artaud</a></li>
+							</ul>
+						</div>
+						<div class="col-lg-8 offset-lg-2">
+							<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+								<a href="https://pendulo.com/archivos/menu-digital.html" class="btn btn-success me-md-2" type="button">Regresar</a>
+							</div>
+						</div>
+					</div>
+				</div>
             </div>
         </div>   <!--row-->
     </div>   <!--container-->
 
 
-    <!--Modales Jugos-->
-    <div class="modal fade" id="jugo1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <img data-dismiss="modal" src="https://pendulo.com/archivos/el-bram-stoker.jpg">
-              <br>
-              <p>Jitomate y apio preparado con salsa Maggi, salsa inglesa y un toque de limón.</p>
-            </div>
-          </div>
-        </div>
-    </div>
+	<!--Modales Jugos-->
+	<div class="modal fade" id="jugo1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<img data-dismiss="modal" src="https://pendulo.com/archivos/el-bram-stoker.jpg">
+					<br>
+					<p>Jitomate y apio preparado con salsa Maggi, salsa inglesa y un toque de limón.</p>
+				</div>
+			</div>
+		</div>
+	</div>
 
-    <div class="modal fade" id="jugo2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <img data-dismiss="modal" src="https://pendulo.com/archivos/el-fresco-de-tamayo.jpg">
-              <br>
-              <p>Sandia con naranja.</p>
-            </div>
-          </div>
-        </div>
-    </div>
+	<div class="modal fade" id="jugo2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<img data-dismiss="modal" src="https://pendulo.com/archivos/el-fresco-de-tamayo.jpg">
+					<br>
+					<p>Sandia con naranja.</p>
+				</div>
+			</div>
+		</div>
+	</div>
 
-    <div class="modal fade" id="jugo3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <img data-dismiss="modal" src="https://pendulo.com/archivos/el-costeno.jpg">
-              <br>
-              <p>Papaya, naranja, fresa y plátano.</p>
-            </div>
-          </div>
-        </div>
-    </div>
+	<div class="modal fade" id="jugo3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+				<img data-dismiss="modal" src="https://pendulo.com/archivos/el-costeno.jpg">
+					<br>
+					<p>Papaya, naranja, fresa y plátano.</p>
+				</div>
+			</div>
+		</div>
+	</div>
 
-    <div class="modal fade" id="jugo4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <img src="">
-            </div>
-          </div>
-        </div>
-    </div>
+	<div class="modal fade" id="jugo4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<img src="">
+				</div>
+			</div>
+		</div>
+	</div>
 
-    <div class="modal fade" id="jugo5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <img data-dismiss="modal" src="https://pendulo.com/archivos/el-gran-papaya.jpg">
-              <br>
-              <p>Papaya, naranja y un toque de miel.</p>
-            </div>
-          </div>
-        </div>
-    </div>
+	<div class="modal fade" id="jugo5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<img data-dismiss="modal" src="https://pendulo.com/archivos/el-gran-papaya.jpg">
+					<br>
+					<p>Papaya, naranja y un toque de miel.</p>
+				</div>
+			</div>
+		</div>
+	</div>
 
-    <div class="modal fade" id="jugo6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <img data-dismiss="modal" src="https://pendulo.com/archivos/el-narahoria.jpg">
-              <br>
-              <p>Naranja y Zanahoria.</p>
-            </div>
-          </div>
-        </div>
-    </div>
+	<div class="modal fade" id="jugo6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<img data-dismiss="modal" src="https://pendulo.com/archivos/el-narahoria.jpg">
+					<br>
+					<p>Naranja y Zanahoria.</p>
+				</div>
+			</div>
+		</div>
+	</div>
 
-    <div class="modal fade" id="jugo7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <img src="">
-            </div>
-          </div>
-        </div>
-    </div>
+	<div class="modal fade" id="jugo7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
 
-    <div class="modal fade" id="jugo8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <img src="">
-            </div>
-          </div>
-        </div>
-    </div>
-    
-    <div class="modal fade" id="jugo9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <img data-dismiss="modal" src="https://pendulo.com/archivos/jugos-naturales-grandes.jpg">
-            </div>
-          </div>
-        </div>
-    </div>
+				</div>
+			</div>
+		</div>
+	</div>
 
-    <div class="modal fade" id="jugo10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <img data-dismiss="modal" src="https://pendulo.com/archivos/nopal-de-lux.jpg">
-            </div>
-          </div>
-        </div>
-    </div>
+	<div class="modal fade" id="jugo8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<img data-dismiss="modal" src="https://pendulo.com/archivos/jugos-natuales-chicos.jpg">
+					<p></p>
+				</div>
+			</div>
+		</div>
+	</div>
 
-    <div class="modal fade" id="jugo11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <img data-dismiss="modal" src="https://pendulo.com/archivos/el-verde-whitman.jpg">
-            </div>
-          </div>
-        </div>
-    </div>
+	<div class="modal fade" id="jugo9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<img data-dismiss="modal" src="https://pendulo.com/archivos/jugos-naturales-grandes.jpg">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="jugo10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<img data-dismiss="modal" src="https://pendulo.com/archivos/nopal-de-lux.jpg">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="jugo11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<img data-dismiss="modal" src="https://pendulo.com/archivos/el-verde-whitman.jpg">
+				</div>
+			</div>
+		</div>
+	</div>
 
 <script>
 function myFunction() {
