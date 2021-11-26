@@ -1,23 +1,27 @@
 
-        @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Secular+One&display=swap');
-       @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=BenchNine:wght@400;700&family=Montserrat:wght@300;400;600&family=Outfit&family=Poppins:wght@300;400&family=Pragati+Narrow:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=BenchNine:wght@400;700&family=Montserrat:wght@300;400;600&family=Outfit&family=Poppins:wght@300;400&family=Pragati+Narrow:wght@400;700&display=swap');
 
-		.bebas{font-family: 'Bebas Neue', cursive;}
-		.pragati{font-family: 'Pragati Narrow', sans-serif;}
-		.benchnine{font-family: 'BenchNine', sans-serif;}
-		.roboto{font-family: 'Roboto Slab', sans-serif;}
-		.roboto-condensed{font-family: 'Roboto Condensed', sans-serif;}
-		.secular{font-family: 'Secular One', sans-serif;}
+.bebas{font-family: 'Bebas Neue', cursive;}
+.pragati{font-family: 'Pragati Narrow', sans-serif;}
+.benchnine{font-family: 'BenchNine', sans-serif;}
+.roboto{font-family: 'Roboto Slab', sans-serif;}
+.roboto-condensed{font-family: 'Roboto Condensed', sans-serif;}
+.secular{font-family: 'Secular One', sans-serif;}
 
-		.uppercase{text-transform: uppercase;}
+.uppercase{text-transform: uppercase;}
 
-		.m-1--5{margin: 1.5em;}
+.m-1--5{margin: 1.5em;}
 
-		.fw-700{font-weight: 700;}
+.fw-700{font-weight: 700;}
 
-		li.subtitle{margin: 1.5em 0;}
-		li.subtitle a{font-family: 'Roboto Condensed', sans-serif;}
+li.subtitle{margin: 1.5em 0;}
+li.subtitle a{font-family: 'Roboto Condensed', sans-serif;}
+a.border-0:hover{border: none;}
+
+
+.nav-tabs{border: none;}
 
         body{background-image: url("https://pendulo.com/archivos/fondo-vintage-01.jpg");background-size: 100%;}
         ul{padding:0 !important;}
@@ -64,9 +68,9 @@
         }
         .blue1{color:#4cbaac;}
         .title{
-					border-bottom: 7px dotted #7f4600;
-					width: fit-content;
-					text-transform: uppercase;
+		border-bottom: 7px dotted #7f4600;
+		width: fit-content;
+		text-transform: uppercase;
         }
         .subtext{
 					font-size: 25px;
