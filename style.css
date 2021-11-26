@@ -26,7 +26,19 @@ a.border-0:hover{border: none;}
 
         body{background-image: url("https://pendulo.com/archivos/fondo-vintage-01.jpg");background-size: 100%;}
         ul{padding:0 !important;}
-        .btn_carta{color:#FFF;height: 80px;text-align: center;vertical-align: middle;display: inline-block;font-weight: 600;font-size: 20px;padding: 35px 0;line-height:1.1;}
+        .btn_carta{
+                justify-content: center;
+                color: #FFF;
+                height: 80px;
+                text-align: center;
+                vertical-align: middle;
+                display: flex;
+                font-weight: 600;
+                font-size: 25px;
+                padding: 15px 0;
+                line-height: 1.1;
+                align-items: center;
+        }
         .menus a:nth-child(even){margin:0 1%;}
         .menus a{width:13%;border-radius:0 0 10px 10px;text-align: center;}
         .com-title{text-align:center;padding:25px 0;}
@@ -74,10 +86,10 @@ a.border-0:hover{border: none;}
 		text-transform: uppercase;
         }
         .subtext{
-					font-size: 25px;
-					font-weight: 300;
-					font-family: 'benchnine';
-					color: #7f4600;
-					margin: 0;
+		font-size: 25px;
+		font-weight: 300;
+		font-family: 'benchnine';
+		color: #7f4600;
+		margin: 0;
         }
         button:focus{outline: none;}
