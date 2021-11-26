@@ -1,0 +1,78 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Secular+One&display=swap');
+       @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=BenchNine:wght@400;700&family=Montserrat:wght@300;400;600&family=Outfit&family=Poppins:wght@300;400&family=Pragati+Narrow:wght@400;700&display=swap');
+
+		.bebas{font-family: 'Bebas Neue', cursive;}
+		.pragati{font-family: 'Pragati Narrow', sans-serif;}
+		.benchnine{font-family: 'BenchNine', sans-serif;}
+		.roboto{font-family: 'Roboto Slab', sans-serif;}
+		.roboto-condensed{font-family: 'Roboto Condensed', sans-serif;}
+		.secular{font-family: 'Secular One', sans-serif;}
+
+		.uppercase{text-transform: uppercase;}
+
+		.m-1--5{margin: 1.5em;}
+
+		.fw-700{font-weight: 700;}
+
+		li.subtitle{margin: 1.5em 0;}
+		li.subtitle a{font-family: 'Roboto Condensed', sans-serif;}
+
+        body{background-image: url("https://pendulo.com/archivos/fondo-vintage-01.jpg");background-size: 100%;}
+        ul{padding:0 !important;}
+        .btn_carta{color:#FFF;height: 80px;text-align: center;vertical-align: middle;display: inline-block;font-weight: 600;font-size: 20px;padding: 35px 0;line-height:1.1;}
+        .menus a:nth-child(even){margin:0 1%;}
+        .menus a{width:13%;border-radius:0 0 10px 10px;text-align: center;}
+        .com-title{text-align:center;padding:25px 0;}
+        .com-title img{width: 60%;}
+        .menu-itms ul{list-style:none !important;}
+       
+        .menu-itms ul li a{font-size: 2em;color:#7f4600;line-height: 35px;text-decoration: none;}
+
+
+        .category .menu-itms ul li a{border-bottom: 2px solid #ffb91a;}
+
+        .menu-itms ul li a:hover{border-bottom: 3px solid #7f4600;}
+        p.subtext:hover{text-decoration: underline;width: fit-content;}
+
+        .tab-content{width:100%;}
+        .modal-body{padding:0;}
+        .modal-body img{width: 100%;}
+        .com-title h1{font-family: 'Roboto Slab', serif; font-size: 3.5em;}
+        .modal-header{padding: 5px 20px 0px;background: #000;border: none;}
+        .close{color:#FFF;}
+        .close:focus, .close:hover{color:#a8a8a8;}
+        .btn-success{background: #146060;border: none;}
+        .btn-success:hover{background: #0f4d4d;}
+        #myLinks a{width: 100% !important; text-align: center;}
+        .topnav {overflow: hidden;background-color: #146060;position: relative;display: none;}
+        .topnav #myLinks {display: none;}
+        .topnav a {color: white;padding: 14px 16px;text-decoration: none;font-size: 17px;display: block;}
+        .topnav a.icon {background: #146060;display: block;position: absolute;right: 0;top: 0;}
+        .modal-body p{padding: 15px;text-align: center;color: #FFF;}
+        .modal-body{background:#000;}
+
+        @media only screen and (max-width: 990px){
+        .topnav{display: block;}
+        body{background-size: cover;background-position: center 0;}
+        .menu-itms ul li{text-align: center;}
+        .nav-tabs{padding: 0;}
+        .nav-tabs a{width: 33.3%;border-radius: 0;margin: 0 !important;}
+        .menus{display: none;}
+
+        }
+        .blue1{color:#4cbaac;}
+        .title{
+					border-bottom: 7px dotted #7f4600;
+					width: fit-content;
+					text-transform: uppercase;
+        }
+        .subtext{
+					font-size: 25px;
+					font-weight: 300;
+					font-family: 'benchnine';
+					color: #7f4600;
+					margin: 0;
+        }
+        button:focus{outline: none;}
