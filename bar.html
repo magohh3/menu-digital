@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Menu Pendulo Desayunos</title>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+</head>
+<body>
+     <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a class="active">&nbsp;</a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks" class="nav nav-tabs">
+    <a href="index.html">Desayunos</a>
+    <a href="menu-comida-y-cena.html">Comida y cena</a>
+    <a href="menu-infantil.html">Men&uacute; infantil</a>
+    <a href="#5a" data-toggle="tab" onclick="closet()">Men&uacute; del d&iacute;a</a>
+    <a href="bebidas.html">Bebidas</a>
+    <a href="bar.html">Bar</a>
+    <a href="bar-polanco.html">Bar Polanco</a>
+</div> 
+	<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		<i class="fa fa-bars"></i>
+	</a>
+</div> 
+	<div class="container">
+		<div class="row">
+			<div class="menus nav nav-tabs col-lg-12">
+				<a href="index.html" style="background:#ffb91a;">
+					<div style="color:#7f4600;" class="btn_carta benchnine uppercase">Desayunos</div>
+				</a>
+				<a href="menu-comida-y-cena.html" style="background:#ff8300;">
+					<div class="btn_carta benchnine uppercase">Comida <br> y cena</div>
+				</a>
+				<a href="menu-infantil.html" style="background:#ffb91a;">
+					<div style="color:#7f4600;" class="btn_carta benchnine uppercase">Men&uacute; <br> infantil</div></a>
+				<a href="#5a" data-toggle="tab" style="background:#7f4600;">
+					<div class="btn_carta benchnine uppercase">Men&uacute; <br> del d&iacute;a</div>
+				</a>
+				<a href="bebidas.html" style="background:#4cbaac;">
+					<div class="btn_carta benchnine uppercase">Bebidas</div>
+				</a>
+				<a href="bar.html" style="background:#4cbaac;">
+					<div class="btn_carta benchnine uppercase">Bar</div>
+				</a>
+				<a href="bar-polanco.html" style="background:#ffb91a;">
+					<div style="color:#7f4600;" class="btn_carta benchnine uppercase">Bar <br> Polanco</div>
+				</a>
+			</div>
+		</div>
+<!--Desayuno-->
+			<div id="up" class="tab-content">
+
+				<div class="tab-pane container active category" id="1a">
+					<div class="row">
+						<div class="col-lg-12 com-title">
+							<h1 class="com-title">Bar</h1>
+						</div>
+						<div class="col-lg-5 offset-lg-1 menu-itms">
+						<ul class="nav flex-column">
+							<li class="subtitle">
+								<a href="" class="fw-700 border-0">Cervezas</a>
+								<a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/23_cervezas-nacionales.jpg'><p class="subtext">Cervezas Nacionales</p></a>
+								<a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/24_cerveza-artesanal-boca-negra.jpg'><p class="subtext">Cerveza artesanal Boca Negra</p></a>
+							</li>
+							<li class="subtitle">
+								<a href="" class="border-0">Cerveza de Barril Clara y obscura</a>
+								<a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/27_jarra-de-cerveza-clara-y-oscura.jpg'><p class="subtext">Jarra</p></a>
+								<a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/26_tarro-de-barril-clara-y-obscura.jpg'><p class="subtext">Tarro</p></a>
+							</li>
+							<li class="subtitle">
+								<a href="" class="fw-700 border-0">Bebidas con Cerveza</a>
+								<a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/28_michelada-con-cerveza-de-barril.jpg'><p class="subtext">Michelada con cerveza de barril</p></a>
+								<a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/29_michelada-artesanal.jpg'><p class="subtext">Michelada Artesanal</p></a>
+								<a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/30_michelada-importada.jpg'><p class="subtext">Michelada Importada</p></a>
+								<a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/31_bramichelada-con-cerveza-de-barril.jpg'><p class="subtext">Bramichelada con cerveza de barril</p></a>
+								<a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/32_bramichelada-con-cerveza-artesanal.jpg'><p class="subtext">Bramichelada con cerveza de artesanal</p></a>
+								<a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/33_bramichelada-con-cerveza-importada.jpg'><p class="subtext">Bramichelada con cerveza importada</p></a>
+							</li>	
+							<li class="subtitle">
+								<a href="" class="border-0">Cremas y licores</a>
+								<a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/40_kahlua.jpg'><p class="subtext">Kahlúa</p></a>
+								<a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/41_baileys.jpg'><p class="subtext">Baileys Clásico</p></a>
+								<a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/42_sambuca-negro.jpg'><p class="subtext">Sambuca Negro</p></a>
+								<a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/42a_sambuca-negro-con-moscas.jpg'><p class="subtext">Sambuca Negro con Moscas</p></a>
+								<a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/43_amaretto.jpg'><p class="subtext">Amaretto Disaronno</p></a>
+								<a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/43_licor-del-43.jpg'><p class="subtext">Licor 43</p></a>
+							</li>
+							<li class="subtitle"><a href="" data-toggle="modal" data-target="#myModal" class="food fw-700" src='https://pendulo.com/archivos/34_ginebras.jpg'>Ginebras</a></li>
+							<li class="subtitle">
+								<a href="" class="border-0">Los Tradicionales</a>
+								<a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/19_cosmopolitan.jpg'><p class="subtext">Cosmopolitan</p></a>
+								<a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/20_mojito-hierbabuena.jpg'><p class="subtext">Mojito de Hierbabuena</p></a>
+								<a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/22_daikiri-de-mango.jpg'><p class="subtext">Daikiri de Mango</p></a>
+							</li>
+						</ul>
+						</div>
+
+						<div class="col-lg-5 offset-lg-1 menu-itms">
+							<ul class="nav flex-column">
+								<li class="subtitle">
+									<a href="" class="border-0 fw-700">Margaritas</a>
+									<a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/02_margarita-naural-rocas.jpg'><p class="subtext">Margarita Natural Rocas</p></a>
+									<a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/01_margarita-de-natural-frappe.jpg'><p class="subtext">Margarita Natural Frappé</p></a>
+									<a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/03_margarita-de-guanabana.jpg'><p class="subtext">Margarita de Guanábana</p></a>
+									<a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/04_margarita-de-mango.jpg'><p class="subtext">Margarita de Mango</p></a>
+									<a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/05_margarita-de-tamarindo-.jpg'><p class="subtext">Margarita de Tamarindo</p></a>
+									<a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/06_margarita-de-coco.jpg'><p class="subtext">Margarita de Coco</p></a>
+									<a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/07_margarita-de-chamoy.jpg'><p class="subtext">Margarita de Chamoy</p></a>
+								</li>
+								<li class="subtitle">
+									<a href="" class="border-0">Martinis</a>
+									<a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/	08_martini-seco.jpg'><p class="subtext">Martini Seco</p></a>
+									<a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/09_martini-de-pepino.jpg'><p class="subtext">Martini de Pepino</p></a>
+									<a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/10_martini-de-chocolate.jpg'><p class="subtext">Martini de Chocolate</p></a>
+									<a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/11_martini-de-lichi.jpg'><p class="subtext">Martini de Lichi</p></a>
+									<a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/12_martini-de-coco.jpg'><p class="subtext">Martini de Coco</p></a>
+								</li>
+								<li class="subtitle"><a href="" class="fw-700" src='https://pendulo.com/archivos/09_flotante-de-vainilla.jpg'>Mezcal Josefa</a></li>
+								<li class="subtitle">
+									<a href="" class="fw-700 border-0">Cafés con piquete</a>
+									<a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/15_cafe-irlandes.jpg'><p class="subtext">Café Irlandés</p></a>
+									<a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/16_carajillo.jpg'><p class="subtext">Carajillo</p></a>
+									<a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/17_capuchino-bailey-s.jpg'><p class="subtext">Capuchino Baileys</p></a>
+									<a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/18_kafkake.jpg'><p class="subtext">Kafkafé</p></a>
+								</li>
+								<li class="subtitle"><a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/ponche.jpg'>Ponche</a></li>
+							</ul>
+						</div>
+						<div class="col-lg-10 offset-lg-2">
+							<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+								<a href="#up" class="btn btn-success me-md-2" type="button">Subir</a>
+							</div>
+						</div>
+					</div>
+				</div>
+					<div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" role="dialog">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<img id="uno" src=""/>
+								</div>
+							</div>
+						</div>
+					</div>
+
+<script>
+
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+} 
+
+  function closet() {
+  var y = document.getElementById("myLinks");
+  if (y.style.display === "block") {
+    y.style.display = "none";
+  }  
+} 
+
+$(document).ready(function () {
+    $('a.food').on('click', function () {
+        var image = $(this).attr('src');
+        $('#myModal').on('show.bs.modal', function () {
+            $("#uno").attr("src", image);
+        });
+    });
+});
+
+
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -23,6 +23,9 @@ a.border-0:hover{border: none;}
 .lh-45{line-height: 45px!important;}
 
 .nav-tabs{border: none;}
+.btn_carta:hover{color:#fff;}
+
+a.hover-fff:hover;{color:#fff;text-decoration: underline;}
 
         body{background-image: url("https://pendulo.com/archivos/fondo-vintage-01.jpg");background-size: 100%;}
         ul{padding:0 !important;}
@@ -42,13 +45,15 @@ a.border-0:hover{border: none;}
         .menus a:nth-child(even){margin:0 1%;}
         .menus a{width:13%;border-radius:0 0 10px 10px;text-align: center;}
         .com-title{text-align:center;padding:25px 0;}
-        .com-title img{width: 60%;}
+        .com-title img{width: 60%;height: 100px; object-fit: contain;}
+        .com-title h1{font-family: 'Roboto Slab', serif; font-size: 3.5em;}
+
         .menu-itms ul{list-style:none !important;}
        
         .menu-itms ul li a{font-size: 2em;color:#7f4600;line-height: 35px;text-decoration: none;}
 
 
-        .category .menu-itms ul li a{border-bottom: 2px solid #ffb91a;}
+        .category .menu-itms ul li a,.underlined-y{border-bottom: 2px solid #ffb91a;width: fit-content;}
 
         .menu-itms ul li a:hover{border-bottom: 3px solid #7f4600;}
         p.subtext:hover{text-decoration: underline;width: fit-content;}
@@ -56,7 +61,7 @@ a.border-0:hover{border: none;}
         .tab-content{width:100%;}
         .modal-body{padding:0;}
         .modal-body img{width: 100%;}
-        .com-title h1{font-family: 'Roboto Slab', serif; font-size: 3.5em;}
+        
         .modal-header{padding: 5px 20px 0px;background: #000;border: none;}
         .close{color:#FFF;}
         .close:focus, .close:hover{color:#a8a8a8;}
