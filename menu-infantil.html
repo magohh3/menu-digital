@@ -64,7 +64,9 @@
                 <!--Menu infantil-->
                 <div class="tab-pane container active category" id="4a">
                   <div class="row">    
-					<div class="col-lg-12 com-title"><h1>Menú infantil</h1></div>
+						<div class="col-lg-12 com-title">
+							<img src="https://pendulo.com/archivos/infantil.png" />
+						</div>
 					<div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" role="dialog">
 						<div class="modal-dialog modal-lg">
 							<div class="modal-content">
@@ -147,6 +149,8 @@ $(document).ready(function () {
         $('#myModal').on('show.bs.modal', function () {
             $("#uno").attr("src", image);
         });
+        var text = $(this).attr('data-content');
+        	$("#dos").text(text);
     });
 });
 </script>
