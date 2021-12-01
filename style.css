@@ -59,6 +59,7 @@ a.hover-fff:hover;{color:#fff;text-decoration: underline;}
         .com-title{text-align:center;padding:25px 0;}
         .com-title img{width: 60%;height: 100px; object-fit: contain;}
         .com-title h1{font-family: 'Roboto Slab', serif; font-size: 3.5em;}
+        .brown-text{color: #7f4600;}
 
         .menu-itms ul{list-style:none !important;}
        
