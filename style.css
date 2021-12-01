@@ -19,13 +19,25 @@
 li.subtitle{margin: 1.5em 0;}
 li.subtitle a{font-family: 'Roboto Condensed', sans-serif;}
 a.border-0:hover{border: none;}
+.subtitle a{
+        font-size: 2em;
+        color: #7f4600;
+}
 
 .lh-45{line-height: 45px!important;}
 
 .nav-tabs{border: none;}
 .btn_carta:hover{color:#fff;}
+.auto{margin: auto;}
+.list-style-none{list-style: none;}
 
 a.hover-fff:hover;{color:#fff;text-decoration: underline;}
+
+.nav-link{
+        color: #7f4600;
+        font-family: 'Roboto Condensed';
+        font-size: 1.5em;
+}
 
         body{background-image: url("https://pendulo.com/archivos/fondo-vintage-01.jpg");background-size: 100%;}
         ul{padding:0 !important;}
