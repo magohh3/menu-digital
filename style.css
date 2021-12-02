@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Secular+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=BenchNine:wght@400;700&family=Montserrat:wght@300;400;600&family=Outfit&family=Poppins:wght@300;400&family=Pragati+Narrow:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=BenchNine:wght@400;700;900&family=Montserrat:wght@300;400;600&family=Outfit&family=Poppins:wght@300;400&family=Pragati+Narrow:wght@400;700&display=swap');
 
 .bebas{font-family: 'Bebas Neue', cursive;}
 .pragati{font-family: 'Pragati Narrow', sans-serif;}
@@ -16,14 +16,13 @@
 
 .fw-700{font-weight: 700;}
 
-li.subtitle{margin: 1.5em 0;}
-li.subtitle a{font-family: 'Roboto Condensed', sans-serif;}
-a.border-0:hover{border: none;}
-.subtitle a{
-        font-size: 2em;
-        color: #7f4600;
-}
+li.subtitle{margin: 1.1em 0;}
 
+a.border-0:hover{border: none;}
+.subtitle a{color: #7f4600;}
+
+.subtitle:nth-child(odd){font-family: 'Secular One', sans-serif;font-size: 1.8em;}
+.subtitle:nth-child(even){font-family: 'Pragati Narrow', sans-serif;font-size: 2em;}
 .lh-45{line-height: 45px!important;}
 
 .nav-tabs{border: none;}
@@ -37,6 +36,19 @@ a.hover-fff:hover;{color:#fff;text-decoration: underline;}
         color: #7f4600;
         font-family: 'Roboto Condensed';
         font-size: 1.5em;
+}
+
+p#dos{
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 1.3em;
+}
+
+ul.nav li a{font-size:2em;}
+
+.fixed-bottom{
+        position: fixed;
+        bottom: 40px;
+        right: 40px;
 }
 
         body{background-image: url("https://pendulo.com/archivos/fondo-vintage-01.jpg");background-size: 100%;}
@@ -63,7 +75,7 @@ a.hover-fff:hover;{color:#fff;text-decoration: underline;}
 
         .menu-itms ul{list-style:none !important;}
        
-        .menu-itms ul li a{font-size: 2em;color:#7f4600;line-height: 35px;text-decoration: none;}
+        .menu-itms ul li a{color:#7f4600;line-height: 40px;text-decoration: none;}
 
 
         .category .menu-itms ul li a,.underlined-y{border-bottom: 2px solid #ffb91a;width: fit-content;}
