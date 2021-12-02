@@ -37,7 +37,7 @@
 </div>
 	<div class="container">
 		<div class="row">
-			<div class="menus nav nav-tabs col-lg-12">
+			<div class="menus nav nav-tabs col-lg-12 justify-content-center p-0">
 				<a href="index.html" style="background:#ffb91a;">
 					<div style="color:#7f4600;" class="btn_carta benchnine uppercase">Desayunos</div>
 				</a>
@@ -52,18 +52,18 @@
 				<a href="bebidas.html" style="background:#4cbaac;">
 					<div class="btn_carta benchnine uppercase">Bebidas</div>
 				</a>
-				<a href="bar.html"style="background:#4cbaac;">
+				<a href="bar.html" style="background:#4cbaac;">
 					<div class="btn_carta benchnine uppercase">Bar</div>
 				</a>
-				<a href="bar-polanco.html"style="background:#ffb91a;">
+				<a href="bar-polanco.html" style="background:#ffb91a;">
 					<div style="color:#7f4600;" class="btn_carta benchnine uppercase">Bar <br> Polanco</div>
 				</a>
 			</div>
 		</div>
 	</div>
 	<div class="container">
-		<div class="row m-1--5">
-			<div class="col-lg-12 com-title">
+		<div class="row">
+			<div class="col-lg-12 com-title mb-4">
 				<img src="https://pendulo.com/archivos/dia.png" />
 			</div>
 			<ul class="nav nav-tabs auto" id="myTab" role="tablist">
@@ -95,7 +95,7 @@
 						<div class="col-lg-4 offset-lg-2">
 							<ul class="flex-column list-style-none">
 								<li class="subtitle">
-									<a href="" class="border-0 fw-700"><p>Primer Tiempo</p></a>
+									<p href="" class="border-0 fw-700">Primer Tiempo</p>
 									<a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/01_sopa-poblana.jpg'><p class="subtext">Sopa Poblana</p></a>
 									<a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/02_ensalada-marti.jpg'><p class="subtext">Ensalada Martí</p></a>
 								</li>
@@ -104,7 +104,7 @@
 						<div class="col-lg-6">
 							<ul class="flex-column list-style-none">
 								<li class="subtitle">
-									<a href="" class="border-0 fw-700">Plato Fuerte</a>
+									<p href="" class="border-0 fw-700">Plato Fuerte</p>
 									<a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/03_pechuga-gongora.jpg'><p class="subtext">Pechuga Góngora</p></a>
 									<a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/04_medallones-freud.jpg'><p class="subtext">Medallones Freud</p></a>
 									<a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/05_pescado-con-costra-de-almendras.jpg'><p class="subtext">Pescado con costra de almendras</p></a>
@@ -255,20 +255,21 @@
 		</div>
 	</div>
 
-				<div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" role="dialog">
-					<div class="modal-dialog modal-lg">
-						<div class="modal-content">
-							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-									<span aria-hidden="true">&times;</span>
-								</button>
-							</div>
-							<div class="modal-body">
-								<img id="uno" src=""/>
-							</div>
-						</div>
-					</div>
+	<div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" role="dialog">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
 				</div>
+				<div class="modal-body">
+					<img id="uno" src=""/>
+					<p id="dos" data-content=""></p>
+				</div>
+			</div>
+		</div>
+	</div>
 
 <script>
 

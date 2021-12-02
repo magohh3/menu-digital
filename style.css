@@ -50,38 +50,42 @@ ul.nav li a{font-size:2em;}
         bottom: 40px;
         right: 40px;
 }
+.nav-tabs .nav-link{font-size: 1.5em;}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{color: #7f4600;background-color: #ffb919;border: none;font-size: 1.5em;}
 
-        body{background-image: url("https://pendulo.com/archivos/fondo-vintage-01.jpg");background-size: 100%;}
-        ul{padding:0 !important;}
-        .btn_carta{
-                justify-content: center;
-                color: #FFF;
-                height: 80px;
-                text-align: center;
-                vertical-align: middle;
-                display: flex;
-                font-weight: 600;
-                font-size: 25px;
-                padding: 15px 0;
-                line-height: 1.1;
-                align-items: center;
-        }
-        .menus a:nth-child(even){margin:0 1%;}
-        .menus a{width:13%;border-radius:0 0 10px 10px;text-align: center;}
-        .com-title{text-align:center;padding:25px 0;}
-        .com-title img{width: 60%; object-fit: contain;}
+body{background-image: url("https://pendulo.com/archivos/fondo-vintage-01.jpg");background-size: 100%;}
+ul{padding:0 !important;}
+.btn_carta{
+        justify-content: center;
+        color: #FFF;
+        height: 80px;
+        text-align: center;
+        vertical-align: middle;
+        display: flex;
+        font-weight: 600;
+        font-size: 25px;
+        padding: 15px 0;
+        line-height: 1.1;
+        align-items: center;
+}
+.menus a:nth-child(even){margin:0 1%;}
+.menus a{width:13%;border-radius:0 0 10px 10px;text-align: center;}
+.com-title{text-align:center;padding:25px 0;}
+.com-title img{width: 60%; object-fit: contain;}
+        @media all and (min-width: 0px) and (max-width: 700px){
+                .com-title img{width: 100%; object-fit: contain;}
+}
         .com-title h1{font-family: 'Roboto Slab', serif; font-size: 3.5em;}
         .brown-text{color: #7f4600;}
 
         .menu-itms ul{list-style:none !important;}
        
-        .menu-itms ul li a{color:#7f4600;line-height: 40px;text-decoration: none;}
-
+        .menu-itms ul li a,p{color:#7f4600;line-height: 40px;text-decoration: none;}
 
         .category .menu-itms ul li a,.underlined-y{border-bottom: 2px solid #ffb91a;width: fit-content;}
 
         .menu-itms ul li a:hover{border-bottom: 3px solid #7f4600;}
-        p.subtext:hover{text-decoration: underline;width: fit-content;}
+        p.subtext:hover{text-decoration: underline;width: 100%;}
 
         .tab-content{width:100%;}
         .modal-body{padding:0;}
@@ -92,7 +96,7 @@ ul.nav li a{font-size:2em;}
         .close:focus, .close:hover{color:#a8a8a8;}
         .btn-success{background: #146060;border: none;}
         .btn-success:hover{background: #0f4d4d;}
-        #myLinks a{width: 100% !important; text-align: center;}
+        #myLinks a{width: 100% !important; text-align: center;font-size: 1.5em;}
         .topnav {overflow: hidden;background-color: #146060;position: relative;display: none;}
         .topnav #myLinks {display: none;}
         .topnav a {color: white;padding: 14px 16px;text-decoration: none;font-size: 17px;display: block;}
