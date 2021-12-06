@@ -93,7 +93,7 @@ ul{padding:0 !important;}
         }
 }
 @media all and (min-width: 0px) and (max-width: 989px){
-        h1.title{font-size:3.5em!important;}
+        h1.title{font-size:2em!important;}
 }
 .subtext{
         font-size: 25px;
@@ -103,7 +103,7 @@ ul{padding:0 !important;}
         margin: 0;
 }
 
-
+.hover-1{color: #fff!important;}
         .com-title h1{font-family: 'Roboto Slab', serif;}
         .brown-text{color: #7f4600;}
 
