@@ -19,7 +19,7 @@
 
 .fw-700{font-weight: 700;}
 
-li.subtitle{margin: 1.1em 0;}
+li.subtitle{margin:0 0 2rem 0;}
 @media all and (min-width: 0px) and (max-width: 990px){
 	li.subtitle{margin: 0 0 1.1em 0;}
 }
@@ -28,8 +28,6 @@ li.subtitle{margin: 1.1em 0;}
 a.border-0:hover{border: none;}
 .subtitle a{color: #7f4600;}
 
-.subtitle:nth-child(odd){font-family: 'Secular One', sans-serif;font-size: 1.8em;}
-.subtitle:nth-child(even){font-family: 'Pragati Narrow', sans-serif;font-size: 2em;}
 .lh-45{line-height: 45px!important;}
 
 .nav-tabs{border: none;}
@@ -76,7 +74,7 @@ ul{padding:0 !important;}
         align-items: center;
 }
 .menus a:nth-child(even){margin:0 1%;}
-.menus a{width:13%;border-radius:0 0 10px 10px;text-align: center;}
+.menus a{width:11%;border-radius:0 0 10px 10px;text-align: center;}
 .com-title{text-align:center;padding:25px 0;}
 .com-title img{width: 60%; object-fit: contain;}
 @media all and (min-width: 0px) and (max-width: 700px){
@@ -102,22 +100,44 @@ ul{padding:0 !important;}
 .subtext{
         font-size: 25px;
         font-weight: 300;
-        font-family: 'benchnine';
+        font-family: 'Roboto Condensed', sans-serif;
         color: #7f4600;
         margin: 0;
+}
+.subtitle a{
+	color:#7f4600;
+	line-height: 40px;
+	text-decoration: none;
+	font-family: 'BenchNine', sans-serif;
+	font-size: 2em;
+	margin-bottom: .5rem;
+}
+.subtitle > p:first-child{
+	color:#7f4600;
+	line-height: 40px;
+	text-decoration: none;
+	font-family: 'BenchNine', sans-serif;
+	font-size: 2em;
+	margin-bottom: .5rem;
 }
 
 .hover-1{color: #fff!important;}
 
 #postres .modal-content{background-color: #000;}
 
-
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover{border-color: transparent;}
 	.com-title h1{font-family: 'Roboto Slab', serif;}
 	.brown-text{color: #7f4600;}
 
 	.menu-itms ul{list-style:none !important;}
 
-	.menu-itms ul li a,p{color:#7f4600;line-height: 40px;text-decoration: none;}
+	a[data-toggle="tab"]{
+		color:#7f4600;
+		line-height: 40px;
+		text-decoration: none;
+		font-family: 'BenchNine', sans-serif;
+		text-transform: uppercase;
+	}
 
 	.category .menu-itms ul li a,.underlined-y{border-bottom: 2px solid #ffb91a;width: fit-content;}
 
