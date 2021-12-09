@@ -46,8 +46,15 @@ a.hover-fff:hover;{color:#fff;text-decoration: underline;}
 p#dos{
         font-family: 'Roboto Condensed', sans-serif;
         font-size: 1.3em;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 0;
+        padding-bottom: 0;
 }
-
+p#tres{
+	font-family: 'Roboto Condensed', sans-serif;
+        font-size: 1.3em;
+}
 ul.nav li a{font-size:2em;}
 
 .fixed-bottom{
