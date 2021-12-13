@@ -42,10 +42,7 @@
 					<div style="color:#7f4600;" class="btn_carta benchnine uppercase">Desayunos</div>
 				</a>
 				<a href="menu-comida.html" style="background:#ff8300;" class="hover-1">
-					<div class="btn_carta benchnine uppercase">Comida</div>
-				</a>
-				<a href="menu-cena.html" style="background:#ff8300;" class="hover-1">
-					<div class="btn_carta benchnine uppercase">Cena</div>
+					<div class="btn_carta benchnine uppercase">Comidas <br> y cenas</div>
 				</a>
 				<a href="menu-dia.html" style="background:#7f4600;" class="hover-1">
 					<div class="btn_carta benchnine uppercase">Men&uacute; <br> del d&iacute;a</div>
@@ -86,8 +83,26 @@
 						<li class="m-1--5"><a href="#6d" data-toggle="tab" class="bebas">Sándwiches y Hamburguesas</a></li>
 						</ul>
 					</div>
+					<div class="col-lg-12 com-title">
+						<img src="https://pendulo.com/archivos/desayunos-noc.png" style="height: 100px;"/>
+					</div>
+					<div class="col-lg-5 offset-lg-1 menu-itms">
+						<ul class="nav flex-column">
+							<li class="m-1--5"><a href="#1n" data-toggle="tab" class="benchnine uppercase">Para Empezar</a></li>
+							<li class="m-1--5"><a href="#2n" data-toggle="tab" class="bebas">Hot Cakes</a></li>
+							<li class="m-1--5"><a href="#3n" data-toggle="tab" class="benchnine uppercase">Chilaquiles</a></li>
+						</ul>
+					</div>
+
+					<div class="col-lg-5 offset-lg-1 menu-itms">
+						<ul class="nav flex-column">
+							<li class="m-1--5"><a href="#4n" data-toggle="tab" class="bebas">Lo Típico</a></li>
+							<li class="m-1--5"><a href="#5n" data-toggle="tab" class="benchnine uppercase">Nuestro Sazón</a></li>
+						</ul>
+					</div>
 				</div>
 			</div>
+
 <!--ENTRADAS-->
 	        <div class="tab-pane container fade" id="1d">
 	          <div class="row">
@@ -207,7 +222,7 @@
 	            </div>
 	            <div class="col-lg-10 offset-lg-2 menu-itms">
 	              <ul>
-	                <li class="subtitle"><a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/alitas-bufalo.jpg' data-content="Alitas de pollo acompañadas de salsa tipo Búfalo, salsa de queso azul y salsa de mango con habanero.">Alitas Búfalo</a></li>
+	                <li class="subtitle"><a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/alitas-bufalo.jpg' data-content="Alitas de pollo acompañadas de salsa tipo Búfalo, salsa de queso azul y salsa de mango con habanero." data-name="600g / MEDIA ORDEN 300g">Alitas Búfalo</a></li>
 	                <li class="subtitle"><a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/nachos-a-la-waits.jpg' data-content="Nachos de chili con carne, crema ácida, lechuga y guacamole.">Nachos a la Waits</a></li>
 	                <li class="subtitle"><a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/guacamole.jpg' data-content="El clásico de aguacate con cebolla blanca, chile serrano, cilantro y unas gotas de limón.">Guacamole con Totopos</a></li>
 	                <li class="subtitle"><a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/tacos-dorados-de-pollo.jpg' data-content="Tacos de pollo salteado con cebolla en tortillas taqueras de maiz, bañados en salsa roja y verde con un toque de crema y queso fresco rallado.">Tacos dorados de pollo</a></li>
@@ -329,7 +344,7 @@
 					<div class="col-lg-5 offset-lg-1 menu-itms">
 						<ul>
 							<li class="subtitle"><a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/21_yogourth-especial.jpg' data-content="Con fruta de su elección, granola y miel.">Yogurt Especial</a></li>
-							<li class="subtitle"><a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/22_bisquetes-clasicos.jpg' data-content="Hechos en casa, tostados con mantequilla y servidos con mermelada de fresa, guayaba o jamaica.">Bisquets Clásicos</a></li>
+							<li class="subtitle"><a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/22_bisquetes-clasicos.jpg' data-content="Hechos en casa, tostados con mantequilla y servidos con mermelada de fresa, guayaba o jamaica. 4 mitades." data-name="4 mitades / MEDIA ORDEN 2 mitades">Bisquets Clásicos</a></li>
 							<li class="subtitle">
 									<p href="" data-toggle="modal" class="mb-2 border-0">Queso Panela</p>
 									<a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/queso-panela-fresco.jpg' data-content="Fresco o asado, acompañado de medias lunas de jitomate."><p class="subtext">Fresco</p></a>
@@ -453,21 +468,22 @@
 			</div>
 		</div>
 	</div>
-<div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" role="dialog">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <img id="uno" src=""/>
-          <p id="dos" data-content=""></p>
-        </div>
-      </div>
-    </div>
-  </div>
+	<div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="platillos" aria-hidden="true" role="dialog">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<img id="uno" src=""/>
+					<p id="dos" data-content=""></p>
+					<p id="tres"></p>
+				</div>
+			</div>
+		</div>
+	</div>
 <script>
 
 function myFunction() {
@@ -486,8 +502,11 @@ $(document).ready(function () {
             $("#uno").attr("src", image);
         });
         var text = $(this).attr('data-content');
-          $("#dos").text(text);
-    });
+        	$("#dos").text(text);
+        var text = $(this).attr('data-name');
+        	$("#tres").text(text);
+
+    	});
 });
 
   function closet() {
