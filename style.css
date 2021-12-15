@@ -31,6 +31,7 @@ a.border-0:hover{border: none;}
 .lh-45{line-height: 45px!important;}
 
 .nav-tabs{border: none;}
+
 .btn_carta:hover{color:#fff;}
 .auto{margin: auto;}
 .list-style-none{list-style: none;}
@@ -47,12 +48,14 @@ p#dos{
         font-family: 'Roboto Condensed', sans-serif;
         font-size: 1.3em;
         margin-top: 0;
-        margin-bottom: 20;
-        padding: 0 20px;
+        padding:10px;
+        margin-bottom: 0;
 }
 p#tres{
 	font-family: 'Roboto Condensed', sans-serif;
         font-size: 1em;
+        padding: 0 10px 10px;
+        margin-bottom: 0;
 }
 ul.nav li a{font-size:2em;}
 
@@ -82,6 +85,7 @@ ul{padding:0 !important;}
         padding: 15px 0;
         line-height: 1.1;
         align-items: center;
+        cursor: pointer;
 }
 .menus a:nth-child(even){margin:0 1%;}
 .menus a{width:11%;border-radius:0 0 10px 10px;text-align: center;}
@@ -172,7 +176,7 @@ p.subtext:hover{text-decoration: underline;width: 100%;}
 .menu-itms ul{list-style:none !important;}
 .space-around{justify-content: space-around!important;}
 
-a[data-toggle="tab"]{
+a[data-toggle="tab"],.title{
 	color:#7f4600;
 	line-height: 40px;
 	text-decoration: none;
