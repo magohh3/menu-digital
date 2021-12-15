@@ -166,7 +166,7 @@ p.subtext:hover{text-decoration: underline;width: 100%;}
 
 .hover-1{color: #fff!important;}
 
-#postres .modal-content{background-color: #000;}
+#postres .modal-content, #panques .modal-content{background-color: #000;}
 
 .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover{border-color: transparent;}
 
