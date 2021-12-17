@@ -19,7 +19,7 @@ if (hora >= 13 && hora <=17){
 
 switch (dia){
   case 17 :
-  console.log('Menu3');
+  hide(document.getElementById('not-show'));
   break;
   case 18 :
   console.log('Menu4');
