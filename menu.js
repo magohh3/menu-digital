@@ -24,9 +24,9 @@ let currentMes = mes;
 
 let menuUno,menuDos,menuTres,menuCuatro,menuCinco,menuSeis,menuSiete;
 
-menuUno = [16,25,6,15];
-menuDos = [17,26,7,16];
-menuTres = [18,27,8,17];
+menuUno = [24];
+menuDos = [7,16,27];
+menuTres = [8,17,28];
 menuCuatro = [19,30,9,20];
 menuCinco = [22,1,10,21];
 menuSeis = [23,2,13,22];
