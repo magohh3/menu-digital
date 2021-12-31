@@ -222,3 +222,5 @@ button:focus{outline: none;}
         color: #146060;
         font-size: 2em;
 }
+
+.btn:focus{box-shadow: none;}
