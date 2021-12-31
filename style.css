@@ -217,3 +217,8 @@ body{background-size: cover;background-position: center 0;}
 }
 
 button:focus{outline: none;}
+
+.btn-arrow{
+        color: #146060;
+        font-size: 2em;
+}
