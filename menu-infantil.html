@@ -12,6 +12,7 @@
     <title>Menu Infantil</title>
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="extra.js"></script>
 </head>
 <body>
      <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
@@ -128,38 +129,6 @@
               </div>
 			</div>
 		</div>
-<script>
-function myFunction() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-} 
-</script>
-
-<script>
-  function closet() {
-  var y = document.getElementById("myLinks");
-  if (y.style.display === "block") {
-    y.style.display = "none";
-  }  
-} 
-
-$(document).ready(function () {
-    $('a.food').on('click', function () {
-        var image = $(this).attr('src');
-        $('#myModal').on('show.bs.modal', function () {
-            $("#uno").attr("src", image);
-        });
-        var text = $(this).attr('data-content');
-        	$("#dos").text(text);
-        var text = $(this).attr('data-name');
-        	$("#tres").text(text);
-    	});
-});
-</script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
