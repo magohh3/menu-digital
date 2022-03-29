@@ -25,7 +25,7 @@ li.subtitle{margin:0 0 2rem 0;}
 }
 
 
-a.border-0:hover{border: none;cursor: default;}
+a.border-0:hover{border: none;}
 .subtitle a{color: #7f4600;}
 
 .lh-45{line-height: 45px!important;}
@@ -235,3 +235,12 @@ button:focus{outline: none;}
 }
 
 .btn:focus{box-shadow: none;}
+
+.text-description{
+    margin: 2em 2em 0 2em;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #7f4600;
+    padding: 0 20px;
+}
